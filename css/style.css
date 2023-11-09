@@ -1,0 +1,235 @@
+/************************/
+/*  HEADER SECTION */
+/************************/
+
+.header {
+  display: grid;
+  width: 99.2rem;
+  padding: 0.5rem 0.3rem;
+  align-items: center;
+}
+
+.uflip-logo {
+  width: 12.6rem;
+  margin-left: 0.5rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+
+.main-nav-link {
+  color: #fff;
+}
+
+.main-nav-link:link,
+.main-navlink:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  transition: all 0.3;
+}
+
+/* .main-nav-link:active {
+  color: #febd1d;
+} */
+
+.nav-active {
+  color: #febd1d;
+}
+
+.btn-desktop-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  justify-self: end;
+}
+
+/************************/
+/*     MAIN CONTENTS    */
+/************************/
+
+.page-container {
+  width: 99.2rem;
+  height: 100%; /* temp */
+  background-color: #232323;
+  padding: 5rem 7rem;
+}
+
+.page-body {
+  padding: 1rem;
+}
+
+.main-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.broker-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.broker-img {
+  width: 52.8rem;
+}
+
+/*****************************/
+/* HOW / INFO SLIDER SECTION */
+/*****************************/
+
+.section-how {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-slider {
+  display: grid;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.features-imgs {
+  grid-area: 1/1;
+  border-radius: 11px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  border: 2px solid #febd1d;
+  transition: all transform 0.5s;
+}
+
+.info-slider-buttons {
+  margin: 1rem 0;
+  z-index: 1;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.info-slider-btn {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 50%;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+/***********************************************/
+/* MORE INFO (MORE TICKETS / LESS DISTRACTIONS */
+/***********************************************/
+
+/* More tickets , less distractions is already styled (image) */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2.4rem;
+  align-items: start;
+}
+
+.feature {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-img-box {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.feature:last-child {
+  grid-column: 1 / -1;
+  width: 58rem;
+  justify-self: center;
+  align-self: center;
+}
+
+/******************/
+/* SIGN UP BUTTON */
+/******************/
+
+.signup-div-box {
+  height: 11.5rem;
+  width: 100%;
+}
+
+.signup-btn {
+  font-size: 6rem;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  border: 0.3rem solid #febd1d;
+
+  padding: 2rem 4rem;
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.signup-btn:hover,
+.signup-btn:active {
+  background-color: #febd1d;
+}
+
+/*****************************/
+/*          FOOTER           */
+/*****************************/
+
+.footer {
+  width: 99.2rem;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  align-items: center;
+}
+
+.company-about-policy {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.33rem;
+  font-weight: 700;
+}
+
+li:last-child .footer-link {
+  font-weight: 500;
+  cursor: text;
+}
