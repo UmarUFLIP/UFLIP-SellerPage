@@ -81,6 +81,8 @@ body {
   align-items: center;
   position: relative;
   min-height: 100vh;
+
+  overflow: hidden;
 }
 
 .background {
@@ -97,6 +99,7 @@ body {
   background-color: #232323;
   width: auto;
   height: 100%;
+  background-position: center center;
 }
 
 .grid {

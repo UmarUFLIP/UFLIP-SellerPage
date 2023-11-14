@@ -21,15 +21,6 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
     <script
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
@@ -40,20 +31,28 @@
   </head>
   <body>
     <div class="layout">
-   
       <div class="background">
-        <img src="img/BI-Tix.png" alt="Background image for UFLIP seller page">
+        <img
+          src="img/BI-Tix.png"
+          alt="Background image for UFLIP seller page"
+        />
       </div>
       <div class="content-container">
         <header class="header grid--3-cols">
-          <a href="#" class="logo">
-            <img src="img/UFLIP-Logo.png" alt="UFLIP Logo" class="uflip-logo" />
-          </a>
+          <div class="logo">
+            <a href="#" class="logo">
+              <img
+                src="img/UFLIP-Logo.png"
+                alt="UFLIP Logo"
+                class="uflip-logo"
+              />
+            </a>
+          </div>
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li>
                 <a href="https://uflip.com/flipper" class="main-nav-link"
-                >Flipper</a
+                  >Flipper</a
                 >
               </li>
               <li><a href="#" class="main-nav-link nav-active">Seller</a></li>
@@ -61,74 +60,149 @@
           </nav>
           <a href="https://shorturl.at/nGH78" class="btn-desktop-icon">
             <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="32"
-            viewBox="0 0 25 32"
-            fill="none"
-            class="account-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="32"
+              viewBox="0 0 25 32"
+              fill="none"
+              class="account-icon"
             >
-            <path
-            d="M19.71 7.14656C19.71 11.013 16.5756 14.1474 12.7092 14.1474C8.84273 14.1474 5.70836 11.013 5.70836 7.14656C5.70836 3.28012 8.84273 0.145752 12.7092 0.145752C16.5756 0.145752 19.71 3.28012 19.71 7.14656Z"
-            fill="#D9D9D9"
-            />
-            <path
-            d="M0.918335 23.359C0.918335 18.882 4.54761 15.2528 9.02454 15.2528H16.3938C20.8707 15.2528 24.5 18.882 24.5 23.359V31.4652H0.918335V23.359Z"
-            fill="#D9D9D9"
-            />
-          </svg>
-        </a>
-      </header>
-      <div class="page-container">
-        <div class="page-body">
-          <div class="main-contents">
-            <div class="broker-img-box">
-              <img
-              class="broker-img"
-              src="img/BrokerImg.png"
-              alt="Broker Like a Boss text image"
+              <path
+                d="M19.71 7.14656C19.71 11.013 16.5756 14.1474 12.7092 14.1474C8.84273 14.1474 5.70836 11.013 5.70836 7.14656C5.70836 3.28012 8.84273 0.145752 12.7092 0.145752C16.5756 0.145752 19.71 3.28012 19.71 7.14656Z"
+                fill="#D9D9D9"
               />
+              <path
+                d="M0.918335 23.359C0.918335 18.882 4.54761 15.2528 9.02454 15.2528H16.3938C20.8707 15.2528 24.5 18.882 24.5 23.359V31.4652H0.918335V23.359Z"
+                fill="#D9D9D9"
+              />
+            </svg>
+          </a>
+        </header>
+
+        <div class="mobile-header mobile-open-nav">
+          <div class="menu-header">
+            <div class="btns">
+              <button class="btn-mobile-nav">
+                <ion-icon
+                  class="icon-mobile-nav"
+                  name="menu-outline"
+                ></ion-icon>
+                <ion-icon
+                  class="icon-mobile-nav"
+                  name="close-outline"
+                ></ion-icon>
+              </button>
             </div>
-            <div class="section-how">
-              <h2 class="heading-secondary margin-bottom-md">Check it out</h2>
-              <div class="info-slider">
+            <div class="logo">
+              <a href="#" class="logo">
                 <img
-                src="img/HowFund1.png"
-                alt="Image showing fund! add money to your account"
-                class="features-imgs"
+                  src="img/UFLIP-Logo.png"
+                  alt="UFLIP Logo"
+                  class="uflip-logo"
                 />
-                <!-- img 2 -->
+              </a>
+            </div>
+            <a href="https://shorturl.at/nGH78" class="btn-desktop-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="32"
+                viewBox="0 0 25 32"
+                fill="none"
+                class="account-icon"
+              >
+                <path
+                  d="M19.71 7.14656C19.71 11.013 16.5756 14.1474 12.7092 14.1474C8.84273 14.1474 5.70836 11.013 5.70836 7.14656C5.70836 3.28012 8.84273 0.145752 12.7092 0.145752C16.5756 0.145752 19.71 3.28012 19.71 7.14656Z"
+                  fill="#D9D9D9"
+                />
+                <path
+                  d="M0.918335 23.359C0.918335 18.882 4.54761 15.2528 9.02454 15.2528H16.3938C20.8707 15.2528 24.5 18.882 24.5 23.359V31.4652H0.918335V23.359Z"
+                  fill="#D9D9D9"
+                />
+              </svg>
+            </a>
+          </div>
+          <nav class="menu-options open">
+            <ul class="mobile-nav-list">
+              <li>
+                <a href="#" class="mobile-nav-link">Home</a>
+                <ion-icon
+                  class="mobile-nav-icons mvl-home"
+                  name="home"
+                ></ion-icon>
+              </li>
+              <li class="mvl-flipper">
+                <a href="#" class="mobile-nav-link mvl-flipper">Flipper</a>
+                <ion-icon class="mobile-nav-icons" name="person"></ion-icon>
+              </li>
+              <li class="mvl-seller">
+                <a href="#" class="mobile-nav-link">Seller</a>
+                <ion-icon class="mobile-nav-icons" name="cash"></ion-icon>
+              </li>
+              <li class="mvl-login">
+                <a href="#" class="mobile-nav-link">Login</a>
+                <ion-icon class="mobile-nav-icons" name="log-in"></ion-icon>
+              </li>
+              <li class="mvl-signup">
+                <a href="#" class="mobile-nav-link">Signup</a>
+                <ion-icon
+                  class="mobile-nav-icons"
+                  name="arrow-up-circle"
+                ></ion-icon>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="page-container">
+          <div class="page-body">
+            <div class="main-contents">
+              <div class="broker-img-box">
                 <img
-                src="img/HowBroadcast2.png"
-                alt="Image showing fund! add money to your account"
-                class="features-imgs"
+                  class="broker-img"
+                  src="img/BrokerImg.png"
+                  alt="Broker Like a Boss text image"
                 />
-                <!-- img 3 -->
-                <img
-                src="img/HowBuy3.png"
-                alt="Image showing fund! add money to your account"
-                class="features-imgs"
-                />
-                <div class="info-slider-buttons">
-                  <button class="info-slider-btn">&ensp;</button>
-                  <button class="info-slider-btn">&ensp;</button>
-                  <button class="info-slider-btn">&ensp;</button>
+              </div>
+              <div class="section-how">
+                <h2 class="heading-secondary margin-bottom-md">Check it out</h2>
+                <div class="info-slider">
+                  <img
+                    src="img/HowFund1.png"
+                    alt="Image showing fund! add money to your account"
+                    class="features-imgs"
+                  />
+                  <!-- img 2 -->
+                  <img
+                    src="img/HowBroadcast2.png"
+                    alt="Image showing fund! add money to your account"
+                    class="features-imgs"
+                  />
+                  <!-- img 3 -->
+                  <img
+                    src="img/HowBuy3.png"
+                    alt="Image showing fund! add money to your account"
+                    class="features-imgs"
+                  />
+                  <div class="info-slider-buttons">
+                    <button class="info-slider-btn">&ensp;</button>
+                    <button class="info-slider-btn">&ensp;</button>
+                    <button class="info-slider-btn">&ensp;</button>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="features-section">
-              <img
-              src="img/MoreTIxLessDistraction.png"
-              alt="More Tickets Less Distraction Image text"
-              class="cta-heading"
-              />
-            </div>
-            <div class="features-grid">
-              <div class="feature">
-                <div class="feature-img-box">
-                  <img src="img/MoreOpp-Img.png" alt="More Opportunity" />
-                </div>
+
+              <div class="features-section">
+                <img
+                  src="img/MoreTIxLessDistraction.png"
+                  alt="More Tickets Less Distraction Image text"
+                  class="cta-heading"
+                />
+              </div>
+              <div class="features-grid">
+                <div class="feature">
+                  <div class="feature-img-box">
+                    <img src="img/MoreOpp-Img.png" alt="More Opportunity" />
+                  </div>
                   <div class="feature-text-box">
                     <h3 class="heading-tert">More Opportunity</h3>
                     <p class="feature-text-info">
@@ -178,11 +252,10 @@
                   </div>
                 </div>
                 <div class="feature">
-                  <div class="feature-img-box">
+                  <div class="feature-img-box crushComp-img">
                     <img
-                    src="img/crushComp-Img.png"
-                    alt="Crush The Competition"
-                    width="120"
+                      src="img/crushComp-Img.png"
+                      alt="Crush The Competition"
                     />
                   </div>
                   <div class="feature-text-box">
@@ -198,15 +271,14 @@
               </div>
               <div class="signup-div-box">
                 <a class="signup-btn" href="https://uflip.com/seller-signup"
-                >Sign up for a demo</a
+                  >Sign up for a demo</a
                 >
               </div>
-              <!-- main content end div -->   
+              <!-- main content end div -->
             </div>
             <!-- page-body div -->
           </div>
-            <!-- page-contaner end div -->
-            
+          <!-- page-contaner end div -->
         </div>
         <footer class="footer">
           <div class="footer-container">
@@ -217,24 +289,34 @@
               <ul class="company-about-policy">
                 <li>
                   <a href="https://uflip.com/our-mission" class="footer-link"
-                  >About Us</a
+                    >About Us</a
                   >
                 </li>
                 <li>
                   <a href="https://uflip.com/privacy" class="footer-link"
-                  >Privacy Policy</a
+                    >Privacy Policy</a
                   >
                 </li>
                 <li>
-                  <a class="footer-link">&copy; 2026 Copyright: UFLIP.COM</a>
+                  <a class="footer-link"
+                    >&copy; <span class="year">2025</span> Copyright:
+                    UFLIP.COM</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
         </footer>
       </div>
-        <!-- end of background container -->
+      <!-- end of background container -->
     </div>
-  </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
