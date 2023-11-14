@@ -8,7 +8,10 @@ yearEl.textContent = currentYear;
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".mobile-header");
 const menuOpt = document.querySelector(".menu-options");
+const mobNavList = document.querySelector("mobile-nav-list");
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("mobile-open-nav");
+  menuOpt.classList.toggle("open");
+  mobNavList.classList.toggle("displayOn");
 });
