@@ -154,9 +154,13 @@ body {
 }
 
 .margin-bottom-md {
-  margin-bottom: 2.4rem !important;
+  margin-bottom: 2.4rem;
 }
 
 .center-text {
   text-align: center;
+}
+
+ion-icon {
+  --ionicon-stroke-width: 48px;
 }
