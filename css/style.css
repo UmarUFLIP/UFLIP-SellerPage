@@ -167,6 +167,16 @@
   color: #febd1d;
 }
 
+.mvl-flipper:hover {
+  color: #00cdff;
+}
+
+.mvl-home:hover,
+.mvl-login:hover,
+.mvl-signup:hover {
+  color: #fff;
+}
+
 /* off by default */
 .mobile-header {
   display: none;
@@ -300,6 +310,10 @@
   column-gap: 2rem;
   row-gap: 2.4rem;
   align-items: start;
+  justify-content: center;
+  width: 100%;
+
+  /* overflow: hidden; */
 }
 
 .feature {
@@ -317,7 +331,8 @@
 
 .feature:last-child {
   grid-column: 1 / -1;
-  width: 58rem;
+  /* width: 58rem; */
+  max-width: 58rem;
   justify-self: center;
   align-self: center;
 }

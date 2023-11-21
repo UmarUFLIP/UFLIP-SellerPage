@@ -67,9 +67,11 @@
     width: 8.5rem;
     align-self: center;
   }
-  .feature {
-    padding: 0 7rem;
-  }
+
+  /* No longer need if max-width: 58rem in styles.css */
+  /* .feature:last-child {
+    width: 100%; 
+  } */
   .heading-tert {
     font-size: 2.2rem;
   }
@@ -82,6 +84,7 @@
     border-radius: 1rem;
     text-align: center;
     padding: 1rem 2rem;
+    width: max-content;
   }
   .signup-div-box {
     height: 6.9rem;
@@ -168,8 +171,13 @@
 
   .feature {
     width: 100%;
-    height: fit-content;
+    padding: 0 0;
   }
+
+  /* No longer need if max-width: 58rem in styles.css */
+  /* .feature:last-child {
+    width: 100%;
+  } */
 
   .feature-img-box {
     width: calc(1.35rem + 13.28125vw);
