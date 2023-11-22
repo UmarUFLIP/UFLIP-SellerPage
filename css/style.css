@@ -280,6 +280,8 @@
   border-radius: 50%;
   border: none;
   transition: background-color 0.3s;
+
+  cursor: pointer;
 }
 
 .active-btn {
