@@ -68,10 +68,11 @@
     align-self: center;
   }
 
-  /* No longer need if max-width: 58rem in styles.css */
-  /* .feature:last-child {
-    width: 100%; 
-  } */
+  .feature:last-child {
+    width: 100%;
+    padding: 0 0;
+  }
+
   .heading-tert {
     font-size: 2.2rem;
   }
@@ -173,11 +174,6 @@
     width: 100%;
     padding: 0 0;
   }
-
-  /* No longer need if max-width: 58rem in styles.css */
-  /* .feature:last-child {
-    width: 100%;
-  } */
 
   .feature-img-box {
     width: calc(1.35rem + 13.28125vw);
